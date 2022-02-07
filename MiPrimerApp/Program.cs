@@ -6,7 +6,8 @@ namespace MiPrimerApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo 2 ...");
+            Alumno alumno = new Alumno("Gema Samantha", "Gomez Garcia", 27, "Untel", "2º");
+            Console.WriteLine(alumno);
         }
     }
 }
